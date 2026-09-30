@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h1, h3 {
+    color: #f9f9fb;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #f9f9fb;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(10,10,10);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    background-position: center;    
+    margin: 0;
+    padding: 0; 
+    font-family: 'CaslonAntique', serif;
+}
+
+    @font-face {
+    font-family: 'caslonantique';
+    src: url('img/caslonantique.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+	top: 0;
+    z-index: 10;
+    padding: 2px;
+    background-color: rgba(10,10,10);
+    border-bottom: 4px solid rgb(36, 35, 35);     
+}
+
+.chibi {
+    width: 50px;
+}
+
+.sections {
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 1.6rem;        
+	text-decoration: none;
+    transition-duration: 0.28s;
+	color: #f9f9fb;
+    cursor: pointer; 
+    position: relative;
+}
+
+.sections:hover {
+    transform: scale(1.1); 
+    opacity: 0.5; 	
+}
+
+#home {
+    background-image: url(img/print.png);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.head {
+    margin-top: 10vh;
+}
+
+.img {
+    max-width: 20%;
+    height: auto;
+}
+
+.one {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+
+.img2 {
+    max-width: 35%;
+    height: auto;
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: 500;    
+}
+
+.info {
+    flex-direction: row;
+}
+
+.paper {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3%;
+    width: 22vw;
+    margin-top: 5%;     
+}
+
+.paper4 {
+    background-image: url(img/paper4.png);
+    margin-right: 1%;        
+}
+
+.know {
+    color: black;
+    font-size: 2.2rem;
+    transition-duration: 0.28s;    
+}
+
+.know:hover {
+    transform: scale(1.1); 
+}
+
+.paper2 {
+    background-image: url(img/paper2.png);
+    margin-left: 1%;    
+}
+
+.textone {
+    text-align: center; 
+    width:40% ;    
+    margin-top: 3%;    
+    margin-bottom: 19%;  
+}
+
+.fadeup {
+    font-size: 2rem;
+}
+
+#foto {
+    flex-direction: row;
+    justify-content: space-between;    
+    background-color: rgba(10,10,10);
+    scroll-margin-top: 68px;
+} 
+.line {
+    height: 100vh;
+}
+.frameone {
+    width: 80vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slideLeft {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#table {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(13,13,13); 
+}
+
+.ASM {
+    width: 80vh;
+}
+
+#setting {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(10,10,10);
+}
+
+.frametwo {
+    width: 80vh;
+}
+
+#game {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(13,13,13);
+}
+
+.Expectation {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20vh;
+}
+
+#sistems {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(10,10,10);
+}
+
+.VxD {
+    width: 56vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#platforms {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(13,13,13);
+}
+
+.DxF {
+    width: 32vh;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#sign_up {
+    background-color: rgba(10,10,10);
+    scroll-margin-top: 80px;
+}
+
+.member {
+    margin-top: 50px;
+    font-size: 2.2rem;
+}
+
+.member2 {
+    font-size: 1.6rem;
+}
+
+.contact {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.soc {
+    margin-left: 50px;
+}
+
+.dis {
+    max-width: 80%;
+    height: auto;
+    transition-duration: 0.5s;
+}
+
+.dis:hover {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+.Separation {
+    width: 12%;
+    height: auto;
+}
+
+.bid {
+    background-image: url(img/Frame3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.field {
+    color: #f9f9fb;
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.7rem;
+}
+
+input {
+    background-color: rgba(10,10,10);
+    width: 20vw;
+    height: 5vh;
+    font-family: 'CaslonAntique';
+    color: #f9f9fb;
+    font-size: 1.4rem;
+    border: none;
+}
+
+.inp {
+    border: 30px solid transparent;
+    border-image: url("img/Framework\ 1.0.png") 110 / 20px stretch;
+}
+
+textarea {
+    background-color: rgba(10,10,10);
+    width: 20vw;
+    height: 10vh;
+    font-family: 'CaslonAntique';
+    color: #f9f9fb;
+    font-size: 1.4rem;
+    border: none;
+}
+
+.tex {
+    border: 30px solid transparent;
+    border-image: url("img/Framework\ 2.0.png") 110 / 20px round;
+}
+
+.btn {
+    margin-top: 50px;
+    border: solid transparent;
+    border-image-source: url(img/Button.png);
+    border-image-slice: 200;
+    border-image-outset: 25px 100px;
+    border-image-repeat: stretch;
+    border-image-width: 35px;
+    cursor: pointer;
+    background-color: rgba(10,10,10);
+    color: #f9f9fb;
+    font-family: 'CaslonAntique';
+    font-size: 1.2rem;  
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+
+.footer {    
+    border-top: 4px solid rgb(36, 35, 35);     
+    height: 120px;   
+    padding-top: 25px; 
+}
+
+.copyright {
+    font-size: 1rem;        
+}
+
+.mast {
+    color: #f9f9fb;
+    text-decoration: underline;
+}
+
+
+
+
